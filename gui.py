@@ -149,7 +149,6 @@ edit_btn.place(x=615, y=310)
 close_btn = ttk.Button(win , width=20 , text= 'بستن' , command=close)
 close_btn.place(x=615, y=350)
 
-
 #ListBox
 list_box = Listbox(win , width=90 , height=18)
 list_box.place(x=25 , y=110)
