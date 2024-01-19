@@ -133,17 +133,21 @@ num_entry.place(x=500 , y=65)
 add_btn = ttk.Button(win , width=20 , text='اضافه کردن' , command=add )
 add_btn.place(x=615, y=150) 
 
+btn_show_list = ttk.Button(win , width=20 , text='نمایش لیست' , command=populate_list)
+btn_show_list.place(x=615 , y=190)
+
+
 search_btn = ttk.Button(win , width=20 , text='جستجوی کالا' , command=search_item)
-search_btn.place(x=615, y=190)
+search_btn.place(x=615, y=230)
 
 delete_btn = ttk.Button(win , width=20 , text= 'حذف کالا' , command=remove_item)
-delete_btn.place(x=615, y=230)
+delete_btn.place(x=615, y=270)
 
 edit_btn = ttk.Button(win , width=20 , text= 'ویرایش' , command=update_item)
-edit_btn.place(x=615, y=270)
+edit_btn.place(x=615, y=310)
 
 close_btn = ttk.Button(win , width=20 , text= 'بستن' , command=close)
-close_btn.place(x=615, y=310)
+close_btn.place(x=615, y=350)
 
 
 #ListBox
